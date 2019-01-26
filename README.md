@@ -5,3 +5,5 @@
 User has a choice of 4 different elements to can create his own desired ambience.
 
 The app is work in progress. Stay tuned for more features.
+
+New <em>Teta Waves</em> sounds
