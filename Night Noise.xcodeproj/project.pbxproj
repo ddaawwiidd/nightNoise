@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0113FFD322009548002BA00A /* space.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0113FFD122009548002BA00A /* space.wav */; };
+		0113FFD422009548002BA00A /* Whale2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0113FFD222009548002BA00A /* Whale2.wav */; };
 		0126A18821EF69BD00706A75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0126A18721EF69BD00706A75 /* AppDelegate.swift */; };
 		0126A18A21EF69BD00706A75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0126A18921EF69BD00706A75 /* ViewController.swift */; };
 		0126A18D21EF69BD00706A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0126A18B21EF69BD00706A75 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0113FFD122009548002BA00A /* space.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = space.wav; sourceTree = "<group>"; };
+		0113FFD222009548002BA00A /* Whale2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Whale2.wav; sourceTree = "<group>"; };
 		0126A18421EF69BD00706A75 /* Night Noise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Night Noise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0126A18721EF69BD00706A75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0126A18921EF69BD00706A75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				0126A1A121EFE56300706A75 /* fire.wav */,
 				0126A19F21EFE56300706A75 /* forest.wav */,
 				0126A19E21EFE56300706A75 /* rain.wav */,
+				0113FFD122009548002BA00A /* space.wav */,
+				0113FFD222009548002BA00A /* Whale2.wav */,
 			);
 			path = "Sound Files";
 			sourceTree = "<group>";
@@ -143,10 +149,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0126A1A721F39DA300706A75 /* windy.wav in Resources */,
+				0113FFD322009548002BA00A /* space.wav in Resources */,
 				0126A19221EF69C400706A75 /* LaunchScreen.storyboard in Resources */,
 				0126A1A521EFE56300706A75 /* fire.wav in Resources */,
 				0126A18F21EF69C400706A75 /* Assets.xcassets in Resources */,
 				0126A1A221EFE56300706A75 /* rain.wav in Resources */,
+				0113FFD422009548002BA00A /* Whale2.wav in Resources */,
 				0126A1A321EFE56300706A75 /* forest.wav in Resources */,
 				0126A18D21EF69BD00706A75 /* Main.storyboard in Resources */,
 			);

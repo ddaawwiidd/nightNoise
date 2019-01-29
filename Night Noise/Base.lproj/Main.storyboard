@@ -11,6 +11,66 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="MGd-Cn-fb8">
+            <objects>
+                <viewController id="hsE-hP-25W" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eQo-HY-5UU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whaleBCG" translatesAutoresizingMaskIntoConstraints="NO" id="XaW-4G-W68">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="XaW-4G-W68" secondAttribute="height" multiplier="207:448" id="9Oe-aV-xu6"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QuB-PP-fdw">
+                                <rect key="frame" x="20" y="124" width="374" height="249"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WfF-94-VDA">
+                                        <rect key="frame" x="104" y="21" width="166" height="207"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whale" translatesAutoresizingMaskIntoConstraints="NO" id="Vlh-Nl-uyH">
+                                                <rect key="frame" x="0.0" y="0.0" width="166" height="166"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Vlh-Nl-uyH" secondAttribute="height" multiplier="1:1" id="ZFW-Fs-UaZ"/>
+                                                </constraints>
+                                            </imageView>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uOc-TX-t4b" userLabel="whaleSwitch">
+                                                <rect key="frame" x="58.5" y="176" width="51" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="uOc-TX-t4b" secondAttribute="height" multiplier="49:31" id="NOn-uV-xsc"/>
+                                                </constraints>
+                                                <color key="onTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="WfF-94-VDA" firstAttribute="centerY" secondItem="QuB-PP-fdw" secondAttribute="centerY" id="5PG-YI-M7m"/>
+                                    <constraint firstItem="WfF-94-VDA" firstAttribute="centerX" secondItem="QuB-PP-fdw" secondAttribute="centerX" id="XNF-3I-mO4"/>
+                                    <constraint firstAttribute="width" secondItem="QuB-PP-fdw" secondAttribute="height" multiplier="374:249" id="xtg-0I-WZO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XaW-4G-W68" firstAttribute="trailing" secondItem="lEA-6u-qqO" secondAttribute="trailing" id="9AV-x8-qgk"/>
+                            <constraint firstAttribute="bottom" secondItem="XaW-4G-W68" secondAttribute="bottom" id="Fk4-aE-gF5"/>
+                            <constraint firstItem="QuB-PP-fdw" firstAttribute="leading" secondItem="lEA-6u-qqO" secondAttribute="leading" constant="20" id="eTR-dX-09p"/>
+                            <constraint firstItem="XaW-4G-W68" firstAttribute="top" secondItem="eQo-HY-5UU" secondAttribute="top" id="gVe-Nx-Dej"/>
+                            <constraint firstItem="lEA-6u-qqO" firstAttribute="trailing" secondItem="QuB-PP-fdw" secondAttribute="trailing" constant="20" id="gZB-32-Ybx"/>
+                            <constraint firstItem="QuB-PP-fdw" firstAttribute="top" secondItem="lEA-6u-qqO" secondAttribute="top" constant="80" id="qW3-qZ-FaH"/>
+                            <constraint firstItem="XaW-4G-W68" firstAttribute="leading" secondItem="lEA-6u-qqO" secondAttribute="leading" id="zHS-VG-Xev"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lEA-6u-qqO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sdc-yc-6ET" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-775.36231884057975" y="361.60714285714283"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Night_Noise" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,7 +78,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="vla-UA-Rwu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBCG" translatesAutoresizingMaskIntoConstraints="NO" id="vla-UA-Rwu">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="vla-UA-Rwu" secondAttribute="height" multiplier="207:448" id="EFr-77-xAX"/>
@@ -137,14 +197,78 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="26.116071428571427"/>
+            <point key="canvasLocation" x="13" y="-155"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Y2c-DE-qrc">
+            <objects>
+                <viewController id="ev2-gg-tfq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y6W-rb-LR5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spaceBCG" translatesAutoresizingMaskIntoConstraints="NO" id="HTL-J5-udK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HTL-J5-udK" secondAttribute="height" multiplier="207:448" id="q1t-V3-8GV"/>
+                                    <constraint firstAttribute="width" secondItem="HTL-J5-udK" secondAttribute="height" multiplier="207:448" id="xjj-Yg-h1Y"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CTK-cS-J5Q">
+                                <rect key="frame" x="20" y="124" width="374" height="224"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ir1-ic-yy9">
+                                        <rect key="frame" x="104" y="8.5" width="166" height="207"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="planet" translatesAutoresizingMaskIntoConstraints="NO" id="jQb-0m-moP">
+                                                <rect key="frame" x="0.0" y="0.0" width="166" height="166"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="jQb-0m-moP" secondAttribute="height" multiplier="1:1" id="ePb-MP-dfE"/>
+                                                </constraints>
+                                            </imageView>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aka-Yo-p3a" userLabel="spaceSwitch">
+                                                <rect key="frame" x="58.5" y="176" width="51" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="aka-Yo-p3a" secondAttribute="height" multiplier="49:31" id="Ewr-Fk-Wsd"/>
+                                                </constraints>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ir1-ic-yy9" firstAttribute="centerY" secondItem="CTK-cS-J5Q" secondAttribute="centerY" id="o1h-dj-3ao"/>
+                                    <constraint firstItem="ir1-ic-yy9" firstAttribute="centerX" secondItem="CTK-cS-J5Q" secondAttribute="centerX" id="rQb-Cm-fRX"/>
+                                    <constraint firstAttribute="width" secondItem="CTK-cS-J5Q" secondAttribute="height" multiplier="187:112" id="vU4-tG-37o"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Yzu-Kp-VCt" firstAttribute="trailing" secondItem="CTK-cS-J5Q" secondAttribute="trailing" constant="20" id="3Yd-ag-qRd"/>
+                            <constraint firstItem="CTK-cS-J5Q" firstAttribute="leading" secondItem="Yzu-Kp-VCt" secondAttribute="leading" constant="20" id="5wf-XQ-tFb"/>
+                            <constraint firstItem="HTL-J5-udK" firstAttribute="top" secondItem="Y6W-rb-LR5" secondAttribute="top" id="9oX-tJ-rjS"/>
+                            <constraint firstItem="CTK-cS-J5Q" firstAttribute="top" secondItem="Yzu-Kp-VCt" secondAttribute="top" constant="80" id="KSJ-wA-oIc"/>
+                            <constraint firstAttribute="bottom" secondItem="HTL-J5-udK" secondAttribute="bottom" id="gZI-Yi-YX9"/>
+                            <constraint firstItem="HTL-J5-udK" firstAttribute="leading" secondItem="Yzu-Kp-VCt" secondAttribute="leading" id="rFF-LV-eSO"/>
+                            <constraint firstItem="HTL-J5-udK" firstAttribute="trailing" secondItem="Yzu-Kp-VCt" secondAttribute="trailing" id="vOt-qY-ovs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yzu-Kp-VCt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0xk-HJ-LV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="753.62318840579712" y="361.60714285714283"/>
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="360" height="640"/>
         <image name="fire" width="166" height="166"/>
+        <image name="mainBCG" width="360" height="640"/>
+        <image name="planet" width="166" height="166"/>
+        <image name="spaceBCG" width="360" height="640"/>
         <image name="tree" width="166" height="166"/>
         <image name="water" width="166" height="166"/>
+        <image name="whale" width="166" height="166"/>
+        <image name="whaleBCG" width="360" height="640"/>
         <image name="wind" width="166" height="166"/>
     </resources>
 </document>
