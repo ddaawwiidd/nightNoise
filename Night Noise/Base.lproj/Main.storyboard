@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CJh-Re-IW3">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Whales-->
         <scene sceneID="MGd-Cn-fb8">
             <objects>
                 <viewController id="hsE-hP-25W" sceneMemberID="viewController">
@@ -65,12 +65,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lEA-6u-qqO"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Whales" image="icon_whales" selectedImage="icon_whales" id="mLx-Qp-iLx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sdc-yc-6ET" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-775.36231884057975" y="361.60714285714283"/>
+            <point key="canvasLocation" x="526" y="1939"/>
         </scene>
-        <!--View Controller-->
+        <!--Elements-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Night_Noise" customModuleProvider="target" sceneMemberID="viewController">
@@ -194,12 +195,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Elements" image="icon_elements" selectedImage="icon_elements" id="Ybu-g4-qOJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13" y="-155"/>
+            <point key="canvasLocation" x="754" y="1156"/>
         </scene>
-        <!--View Controller-->
+        <!--Space-->
         <scene sceneID="Y2c-DE-qrc">
             <objects>
                 <viewController id="ev2-gg-tfq" sceneMemberID="viewController">
@@ -254,14 +256,37 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Yzu-Kp-VCt"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Space" image="icon_space" selectedImage="icon_space" id="08K-Gk-agb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0xk-HJ-LV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="753.62318840579712" y="361.60714285714283"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="km3-dA-ldd">
+            <objects>
+                <tabBarController id="CJh-Re-IW3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dYt-91-bQh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="zbJ-ND-jed"/>
+                        <segue destination="ev2-gg-tfq" kind="relationship" relationship="viewControllers" id="Yv7-Nq-nHz"/>
+                        <segue destination="hsE-hP-25W" kind="relationship" relationship="viewControllers" id="xf9-Xz-VaR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qmb-o1-NIa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-506" y="1077"/>
+        </scene>
     </scenes>
     <resources>
         <image name="fire" width="166" height="166"/>
+        <image name="icon_elements" width="16" height="16"/>
+        <image name="icon_space" width="16" height="16"/>
+        <image name="icon_whales" width="16" height="16"/>
         <image name="mainBCG" width="360" height="640"/>
         <image name="planet" width="166" height="166"/>
         <image name="spaceBCG" width="360" height="640"/>
