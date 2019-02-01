@@ -29,7 +29,7 @@ class WhaleViewController: UIViewController {
     }
     
     func playSoundWhale(){
-        let soundURL = Bundle.main.url(forResource: "Whale2", withExtension: "wav")
+        let soundURL = Bundle.main.url(forResource: "whales", withExtension: "mp3")
         
         do {
             try audioPlayerWhale = AVAudioPlayer(contentsOf: soundURL!)
