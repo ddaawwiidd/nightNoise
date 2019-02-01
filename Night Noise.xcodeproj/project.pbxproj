@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01075AC82204461E00BFF117 /* SpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01075AC72204461E00BFF117 /* SpaceViewController.swift */; };
+		01075ACA2204480000BFF117 /* WhaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01075AC92204480000BFF117 /* WhaleViewController.swift */; };
 		0113FFD322009548002BA00A /* space.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0113FFD122009548002BA00A /* space.wav */; };
 		0113FFD422009548002BA00A /* Whale2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0113FFD222009548002BA00A /* Whale2.wav */; };
 		0126A18821EF69BD00706A75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0126A18721EF69BD00706A75 /* AppDelegate.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01075AC72204461E00BFF117 /* SpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpaceViewController.swift; path = ../SpaceViewController.swift; sourceTree = "<group>"; };
+		01075AC92204480000BFF117 /* WhaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhaleViewController.swift; sourceTree = "<group>"; };
 		0113FFD122009548002BA00A /* space.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = space.wav; sourceTree = "<group>"; };
 		0113FFD222009548002BA00A /* Whale2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Whale2.wav; sourceTree = "<group>"; };
 		0126A18421EF69BD00706A75 /* Night Noise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Night Noise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,8 +71,10 @@
 			isa = PBXGroup;
 			children = (
 				0126A18721EF69BD00706A75 /* AppDelegate.swift */,
+				01075AC72204461E00BFF117 /* SpaceViewController.swift */,
 				0126A18921EF69BD00706A75 /* ViewController.swift */,
 				0126A18B21EF69BD00706A75 /* Main.storyboard */,
+				01075AC92204480000BFF117 /* WhaleViewController.swift */,
 				0126A18E21EF69C400706A75 /* Assets.xcassets */,
 				0126A19021EF69C400706A75 /* LaunchScreen.storyboard */,
 				0126A19321EF69C400706A75 /* Info.plist */,
@@ -167,6 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01075ACA2204480000BFF117 /* WhaleViewController.swift in Sources */,
+				01075AC82204461E00BFF117 /* SpaceViewController.swift in Sources */,
 				0126A18A21EF69BD00706A75 /* ViewController.swift in Sources */,
 				0126A18821EF69BD00706A75 /* AppDelegate.swift in Sources */,
 			);

@@ -13,7 +13,7 @@
         <!--Whales-->
         <scene sceneID="MGd-Cn-fb8">
             <objects>
-                <viewController id="hsE-hP-25W" sceneMemberID="viewController">
+                <viewController id="hsE-hP-25W" customClass="WhaleViewController" customModule="Night_Noise" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eQo-HY-5UU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,6 +42,9 @@
                                                     <constraint firstAttribute="width" secondItem="uOc-TX-t4b" secondAttribute="height" multiplier="49:31" id="NOn-uV-xsc"/>
                                                 </constraints>
                                                 <color key="onTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="whaleSwitch:" destination="hsE-hP-25W" eventType="valueChanged" id="wJu-tp-8lL"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -135,7 +138,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="ult-yE-zyF" userLabel="Stack View Bottom Row">
                                 <rect key="frame" x="41" y="284" width="332" height="205"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="aTu-gS-N6i" userLabel="Stack View Water">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="aTu-gS-N6i" userLabel="Stack View Water">
                                         <rect key="frame" x="0.0" y="0.0" width="166" height="205"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="water" translatesAutoresizingMaskIntoConstraints="NO" id="0mG-a5-aqG" userLabel="water">
@@ -156,7 +159,7 @@
                                             </switch>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9F6-aA-A4O" userLabel="Stack View Forest">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9F6-aA-A4O" userLabel="Stack View Forest">
                                         <rect key="frame" x="166" y="0.0" width="166" height="205"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tree" translatesAutoresizingMaskIntoConstraints="NO" id="cuF-Ch-0fm" userLabel="forest">
@@ -204,7 +207,7 @@
         <!--Space-->
         <scene sceneID="Y2c-DE-qrc">
             <objects>
-                <viewController id="ev2-gg-tfq" sceneMemberID="viewController">
+                <viewController id="ev2-gg-tfq" customClass="SpaceViewController" customModule="Night_Noise" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y6W-rb-LR5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -233,6 +236,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="aka-Yo-p3a" secondAttribute="height" multiplier="49:31" id="Ewr-Fk-Wsd"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="spaceSwitch:" destination="ev2-gg-tfq" eventType="valueChanged" id="hgR-2S-wLT"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
