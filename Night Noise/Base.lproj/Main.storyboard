@@ -186,15 +186,15 @@
                         <color key="backgroundColor" red="0.90980392156862744" green="0.88627450980392153" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bOO-z2-NH4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="7hf-4p-r1C"/>
+                            <constraint firstItem="ult-yE-zyF" firstAttribute="trailing" secondItem="bOO-z2-NH4" secondAttribute="trailing" id="ExN-05-oqm"/>
                             <constraint firstItem="vla-UA-Rwu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="H8m-Oo-5l5"/>
                             <constraint firstAttribute="bottom" secondItem="vla-UA-Rwu" secondAttribute="bottom" id="JUs-AP-TF6"/>
                             <constraint firstItem="vla-UA-Rwu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="M7m-hA-vKH"/>
+                            <constraint firstItem="ult-yE-zyF" firstAttribute="top" secondItem="bOO-z2-NH4" secondAttribute="bottom" constant="15" id="ZFU-64-bUe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bOO-z2-NH4" secondAttribute="trailing" constant="41" id="b2F-D8-Evv"/>
                             <constraint firstItem="vla-UA-Rwu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dk1-Ye-FmV"/>
                             <constraint firstItem="bOO-z2-NH4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hje-II-3uZ"/>
-                            <constraint firstItem="ult-yE-zyF" firstAttribute="top" secondItem="bOO-z2-NH4" secondAttribute="bottom" constant="15" id="k7n-jJ-Ybu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ult-yE-zyF" secondAttribute="trailing" constant="41" id="xyJ-y0-Lvo"/>
-                            <constraint firstItem="ult-yE-zyF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="yGZ-DP-XAB"/>
+                            <constraint firstItem="ult-yE-zyF" firstAttribute="leading" secondItem="bOO-z2-NH4" secondAttribute="leading" id="svZ-Dx-UCn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

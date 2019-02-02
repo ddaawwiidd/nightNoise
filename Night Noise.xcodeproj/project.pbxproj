@@ -10,14 +10,13 @@
 		01075AC82204461E00BFF117 /* SpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01075AC72204461E00BFF117 /* SpaceViewController.swift */; };
 		01075ACA2204480000BFF117 /* WhaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01075AC92204480000BFF117 /* WhaleViewController.swift */; };
 		01075ACC2204F7EB00BFF117 /* whales.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01075ACB2204F7EA00BFF117 /* whales.mp3 */; };
+		01075ACE2205C32C00BFF117 /* relaxRain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01075ACD2205C32C00BFF117 /* relaxRain.mp3 */; };
 		0113FFD322009548002BA00A /* space.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0113FFD122009548002BA00A /* space.wav */; };
-		0113FFD422009548002BA00A /* Whale2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0113FFD222009548002BA00A /* Whale2.wav */; };
 		0126A18821EF69BD00706A75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0126A18721EF69BD00706A75 /* AppDelegate.swift */; };
 		0126A18A21EF69BD00706A75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0126A18921EF69BD00706A75 /* ViewController.swift */; };
 		0126A18D21EF69BD00706A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0126A18B21EF69BD00706A75 /* Main.storyboard */; };
 		0126A18F21EF69C400706A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0126A18E21EF69C400706A75 /* Assets.xcassets */; };
 		0126A19221EF69C400706A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0126A19021EF69C400706A75 /* LaunchScreen.storyboard */; };
-		0126A1A221EFE56300706A75 /* rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0126A19E21EFE56300706A75 /* rain.wav */; };
 		0126A1A321EFE56300706A75 /* forest.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0126A19F21EFE56300706A75 /* forest.wav */; };
 		0126A1A521EFE56300706A75 /* fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0126A1A121EFE56300706A75 /* fire.wav */; };
 		0126A1A721F39DA300706A75 /* windy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0126A1A621F39DA200706A75 /* windy.wav */; };
@@ -27,8 +26,8 @@
 		01075AC72204461E00BFF117 /* SpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpaceViewController.swift; path = ../SpaceViewController.swift; sourceTree = "<group>"; };
 		01075AC92204480000BFF117 /* WhaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhaleViewController.swift; sourceTree = "<group>"; };
 		01075ACB2204F7EA00BFF117 /* whales.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whales.mp3; sourceTree = "<group>"; };
+		01075ACD2205C32C00BFF117 /* relaxRain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = relaxRain.mp3; sourceTree = "<group>"; };
 		0113FFD122009548002BA00A /* space.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = space.wav; sourceTree = "<group>"; };
-		0113FFD222009548002BA00A /* Whale2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Whale2.wav; sourceTree = "<group>"; };
 		0126A18421EF69BD00706A75 /* Night Noise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Night Noise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0126A18721EF69BD00706A75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0126A18921EF69BD00706A75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,7 +35,6 @@
 		0126A18E21EF69C400706A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0126A19121EF69C400706A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0126A19321EF69C400706A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0126A19E21EFE56300706A75 /* rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rain.wav; sourceTree = "<group>"; };
 		0126A19F21EFE56300706A75 /* forest.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = forest.wav; sourceTree = "<group>"; };
 		0126A1A121EFE56300706A75 /* fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fire.wav; sourceTree = "<group>"; };
 		0126A1A621F39DA200706A75 /* windy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = windy.wav; sourceTree = "<group>"; };
@@ -91,10 +89,9 @@
 				0126A1A621F39DA200706A75 /* windy.wav */,
 				0126A1A121EFE56300706A75 /* fire.wav */,
 				0126A19F21EFE56300706A75 /* forest.wav */,
-				0126A19E21EFE56300706A75 /* rain.wav */,
+				01075ACD2205C32C00BFF117 /* relaxRain.mp3 */,
 				0113FFD122009548002BA00A /* space.wav */,
 				01075ACB2204F7EA00BFF117 /* whales.mp3 */,
-				0113FFD222009548002BA00A /* Whale2.wav */,
 			);
 			path = "Sound Files";
 			sourceTree = "<group>";
@@ -161,10 +158,9 @@
 				0113FFD322009548002BA00A /* space.wav in Resources */,
 				0126A19221EF69C400706A75 /* LaunchScreen.storyboard in Resources */,
 				0126A1A521EFE56300706A75 /* fire.wav in Resources */,
+				01075ACE2205C32C00BFF117 /* relaxRain.mp3 in Resources */,
 				01075ACC2204F7EB00BFF117 /* whales.mp3 in Resources */,
 				0126A18F21EF69C400706A75 /* Assets.xcassets in Resources */,
-				0126A1A221EFE56300706A75 /* rain.wav in Resources */,
-				0113FFD422009548002BA00A /* Whale2.wav in Resources */,
 				0126A1A321EFE56300706A75 /* forest.wav in Resources */,
 				0126A18D21EF69BD00706A75 /* Main.storyboard in Resources */,
 			);

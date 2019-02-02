@@ -86,7 +86,7 @@ class ViewController: UIViewController {
     }
     
     func playSoundWater(){
-        let soundURL = Bundle.main.url(forResource: "rain", withExtension: "wav")
+        let soundURL = Bundle.main.url(forResource: "relaxRain", withExtension: "mp3")
         
         do {
             try audioPlayerWater = AVAudioPlayer(contentsOf: soundURL!)
