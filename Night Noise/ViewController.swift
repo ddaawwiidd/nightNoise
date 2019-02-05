@@ -20,6 +20,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true)
+        } catch {
+            print(error)
+        }
+        
     }
 
     @IBAction func fireSwitch(_ sender: UISwitch) {
@@ -103,6 +110,8 @@ class ViewController: UIViewController {
         
         do {
             try audioPlayerForest = AVAudioPlayer(contentsOf: soundURL!)
+            
+            
         } catch {
             print(error)
         }
